@@ -1,0 +1,25 @@
+{
+  "name": "@cellarlabs/rbm-keyvalue-parser",
+  "version": "0.1.0",
+  "private": false,
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "",
+    "should": "",
+    "underscore": ""
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">0.10"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.txt"
+    }
+  ]
+}
