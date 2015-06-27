@@ -112,7 +112,15 @@ describe('Check ParserString', function () {
       ['foo', undefined],
       ['bar', undefined],
       ['foo', ['test test', 'bar']],
-      ['bar', ['test test', 'bar']]]
+      ['bar', ['test test', 'bar']]
+    ],
+    '"foo bar" bar,"foo bar"=1 bar,"foo bar"=bar,"foo bar"': [
+        ['foo bar', undefined],
+        ['bar', '1'],
+        ['foo bar', '1'],
+        ['bar', ['bar', 'foo bar']],
+        ['foo bar', ['bar', 'foo bar']]
+    ]
   }
 
   _.keys(its).forEach(function (parse) {

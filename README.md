@@ -72,4 +72,13 @@ var res = [
   [ 'foo', [ 'test test', 'bar' ] ],
   [ 'bar', [ 'test test', 'bar' ] ] 
 ]
+
+// foo bar" bar,"foo bar"=1 bar,"foo bar"=bar,"foo bar"
+var res = [
+  ['foo bar', undefined],
+  ['bar', '1'],
+  ['foo bar', '1'],
+  ['bar', ['bar', 'foo bar']],
+  ['foo bar', ['bar', 'foo bar']]
+]
 ```
