@@ -1,7 +1,6 @@
 {
-  "name": "@cellarlabs/rbm-keyvalue-parser",
-  "version": "0.1.2",
-  "private": false,
+  "name": "rbm-keyvalue-parser",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": {
     "type": "git",
